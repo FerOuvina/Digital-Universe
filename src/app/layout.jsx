@@ -1,7 +1,7 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Signika } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const signika = Signika({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Digital Universe - Agencia de Marketing Digital',
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='es'>
-      <body className={inter.className}>{children}</body>
+      <body className={signika.className}>{children}</body>
     </html>
   );
 }
