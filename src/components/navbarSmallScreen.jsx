@@ -67,7 +67,7 @@ const Navbar = () => {
             {(ref) => (
               <div
                 ref={ref}
-                className='absolute top-2 -right-2 p-2 mt-2 w-max shadow-lg backdrop-blur-sm bg-cyan/90'
+                className='absolute -right-6 top-[50px] p-2 mt-2 w-max shadow-lg backdrop-blur-sm bg-cyan/90'
               >
                 <div className='text-base font-semibold'>
                   <Link legacyBehavior href='#'>
